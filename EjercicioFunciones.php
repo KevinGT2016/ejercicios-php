@@ -13,8 +13,8 @@
   }
 
   //Ejercicio 2
-  function minimoArrayInt() {
-   $array = array(1, 5, 6, 7, 8, 10, 2, 3);
+  function minimoArrayInt($array) {
+   //$array = array(1, 5, 6, 7, 8, 10, 2, 3);
    $minimo =  $array[0];
    for ($i=0; $i < count($array); $i++) {
      if($minimo > $array[$i]) {
@@ -35,7 +35,7 @@
    }
    return "El numero mayor es ".$maximo;
   }
-  
+
   //Ejercicio 4
   function mediaArrayInt() {
     $array = array(3, 1, 9,);
