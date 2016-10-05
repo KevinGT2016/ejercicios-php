@@ -4,15 +4,14 @@
 </head>
 <body>
 <?php
-//Ejercicio 1
+  //Ejercicio 1
   function generaArrayInt(){
     $array = array();
     $n = rand(1,100);
     $array = $n;
-
     return "Los numero generado es ".$array." <br>";
-
   }
+
   //Ejercicio 2
   function minimoArrayInt() {
    $array = array(1, 5, 6, 7, 8, 10, 2, 3);
@@ -24,6 +23,7 @@
    }
    return "El numero menor es ".$minimo."<br>";
   }
+
   //Ejercicio 3
   function maximoArrayInt() {
    $array = array(1, 5, 6, 7, 8, 10, 2, 3);
@@ -35,11 +35,12 @@
    }
    return "El numero mayor es ".$maximo;
   }
+  
   //Ejercicio 4
   function mediaArrayInt() {
-   $array = array(3, 1, 9,);
-   $mediano =  $array[0];
-}
+    $array = array(3, 1, 9,);
+    $mediano =  $array[0];
+  }
   //Ejercicio 5
   function estaArrayInt($numero){
     $array = array(1, 2, 3, 4, 5, 6, 7);
